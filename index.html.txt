@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+     <head>
+
+         
+         <meta charset="utf-8">
+      <title>Assignment Solution For Module 2</title>
+      </head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 27px;
+    font-family: Georgia serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+p {
+    padding: 15px 5px 0px 5px;
+    font-family: Georgia sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+.section {
+    background-color: rgb(150, 150, 150);
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+}
+
+span {
+    font-size: 20px;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 0;
+    position: absolute;
+}
+
+#nr1 {
+    background-color: rgb(250, 150, 150);
+    color: rgb(0, 0, 0);
+}
+
+#nr2 {
+    background-color: rgb(250, 0, 0);
+    color: rgb(250, 250, 250);
+}
+
+#nr3 {
+    background-color: rgb(200, 200, 100);
+    color: rgb(0, 0, 0);
+}
+
+
+}
+.row {
+    width: 100%;
+}
+
+/* Desktop PC view */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Cell phone view */
+@media (max-width: 767px) {
+    .col-sx-12 {
+        float: left;
+        width: 100%;
+    }
+}
+</style>
+      <body>
+    <div class="row text-center">
+    <div class="col-md-3 col-sm-6">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>HOTKEY + COMBO</h3>
+                <p>Hotkey description goes here. Category only shown in explore.</p>
+                <p>
+                    <a href="#" class="btn btn-default" data-tooltip="Change Hotkey">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>HOTKEY + COMBO</h3>
+                <p>short desc</p>
+                <p>
+                    <a href="#" class="btn btn-default" data-tooltip="Change Hotkey">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6 hotkey-add">
+        <div class="thumbnail">
+            <div class="caption">
+                <p></p>
+                <p><a href="#" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
